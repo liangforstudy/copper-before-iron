@@ -1,0 +1,23 @@
+# See https://stonecutter.kikugie.dev/wiki/config/properties
+mod.id = "copper_before_iron"
+mod.name = "Copper Before Iron"
+mod.version = "1.0.0"
+mod.archive = "copper-before-iron"
+
+# Minecraft versions each release line supports: mc.min inclusive, mc.below exclusive.
+# Copper tools were added in 1.21.9, so nothing older is supported.
+["1.21.11"]
+mc.min = "1.21.9"
+mc.below = "1.21.12"
+
+["26.1"]
+mc.min = "26.1"
+mc.below = "26.2"
+
+["26.2"]
+mc.min = "26.2"
+mc.below = "26.3"
+
+["26.3"]
+mc.min = "26.3"
+mc.below = "26.4"

@@ -1,0 +1,28 @@
+# No Java code and no @Mod entrypoint: NeoForge loads the jar's data as-is.
+license = "MIT"
+issueTrackerURL = "https://github.com/liangforstudy/copper-before-iron/issues"
+
+[[mods]]
+modId = "${id}"
+version = "${version}"
+displayName = "${name}"
+authors = "liangforstudy"
+displayURL = "https://github.com/liangforstudy/copper-before-iron"
+description = '''
+Puts copper back between stone and iron: iron ore needs a copper pickaxe, iron only smelts in a blast furnace, and the blast furnace is made from bricks and copper.
+'''
+
+# NeoForge ships its own minecraft:blast_furnace recipe; loading after it lets ours win.
+[[dependencies.${id}]]
+modId = "neoforge"
+type = "required"
+versionRange = "[0,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.${id}]]
+modId = "minecraft"
+type = "required"
+versionRange = "${neoforge_minecraft}"
+ordering = "NONE"
+side = "BOTH"

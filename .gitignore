@@ -1,0 +1,12 @@
+# --- build output ---
+build/
+.gradle/
+.kotlin/
+run/
+out/
+
+# --- logs, OS/IDE junk ---
+*.log
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": "minecraft:copper_block",
+    "B": "minecraft:bricks",
+    "X": "minecraft:furnace"
+  },
+  "pattern": [
+    "BBB",
+    "BXB",
+    "###"
+  ],
+  "result": {
+    "id": "minecraft:blast_furnace"
+  }
+}

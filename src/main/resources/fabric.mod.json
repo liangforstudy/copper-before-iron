@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "Puts copper back between stone and iron: iron ore needs a copper pickaxe, iron only smelts in a blast furnace, and the blast furnace is made from bricks and copper.",
+  "authors": ["liangforstudy"],
+  "contact": {
+    "sources": "https://github.com/liangforstudy/copper-before-iron",
+    "issues": "https://github.com/liangforstudy/copper-before-iron/issues"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "depends": {
+    "fabricloader": ">=0.16",
+    "minecraft": "${fabric_minecraft}",
+    "fabric-api": "*"
+  }
+}
