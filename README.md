@@ -45,6 +45,10 @@ The mod is data only. It overrides these vanilla files and adds no blocks, items
 Another mod or data pack that changes the same files may conflict with this one. NeoForge ships its
 own blast furnace recipe, so the NeoForge build is set to load after NeoForge so this recipe wins.
 
+
+## made as a request for:
+https://www.reddit.com/r/MinecraftMod/s/pZN7nMCbX0
+
 ## Building
 
 The project uses [Stonecutter](https://stonecutter.kikugie.dev/) to build one jar per Minecraft
